@@ -16,7 +16,7 @@ gradlew.bat
 # Local configuration file (sdk path, etc)
 local.properties
 .gitattributes
-
+.gradle
 # Eclipse project files
 .classpath
 .project
