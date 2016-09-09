@@ -1,13 +1,12 @@
 package com.mobeta.android.dslv;
 
 import android.graphics.Bitmap;
-import android.graphics.Point;
 import android.graphics.Color;
-import android.widget.ListView;
-import android.widget.ImageView;
+import android.graphics.Point;
 import android.view.View;
 import android.view.ViewGroup;
-import android.util.Log;
+import android.widget.ImageView;
+import android.widget.ListView;
 
 /**
  * Simple implementation of the FloatViewManager class. Uses list
@@ -57,7 +56,7 @@ public class SimpleFloatViewManager implements DragSortListView.FloatViewManager
         if (mImageView == null) {
             mImageView = new ImageView(mListView.getContext());
         }
-        mImageView.setBackgroundColor(mFloatBGColor);
+//        mImageView.setBackgroundColor(mFloatBGColor);
         mImageView.setPadding(0, 0, 0, 0);
         mImageView.setImageBitmap(mFloatBitmap);
         mImageView.setLayoutParams(new ViewGroup.LayoutParams(v.getWidth(), v.getHeight()));
