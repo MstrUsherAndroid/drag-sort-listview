@@ -10,9 +10,6 @@
 # generated files
 bin/
 gen/
-target/
-gradlew
-gradlew.bat
 # Local configuration file (sdk path, etc)
 local.properties
 .gitattributes
@@ -24,8 +21,3 @@ build/
 */build
 .idea
 assets/
-res/drawable-hdpi/
-res/drawable-ldpi/
-res/drawable-mdpi/
-res/drawable-xhdpi/
-res/layout/
