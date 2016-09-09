@@ -23,3 +23,9 @@ local.properties
 build/
 */build
 .idea
+assets/
+res/drawable-hdpi/
+res/drawable-ldpi/
+res/drawable-mdpi/
+res/drawable-xhdpi/
+res/layout/
